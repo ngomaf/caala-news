@@ -1,0 +1,17 @@
+{
+    "name": "ngoma/caala-news",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/",
+            "resources\\": "resources/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ngoma M. Fortuna"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^7.2"
+    }
+}
