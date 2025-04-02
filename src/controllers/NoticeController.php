@@ -2,11 +2,14 @@
 
 namespace app\controllers;
 
-class NoticeController
+use resources\libraries\Controller;
+
+
+class NoticeController extends Controller
 {
     public function index():void
     {
-        echo "Notice/index";
+        $this->view->render('site/notices');
     }
     
     public function show(string $slug):void
