@@ -16,7 +16,7 @@ a:hover {
     color: rgb(37, 137, 237);
 }
 
-h2 {
+h2, h3 {
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -31,6 +31,36 @@ footer {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+figcaption {
+    font-size: 12pt;
+    color: #666;
+}
+
+.error h2 {
+    color: #900;
+}
+
+.error h2 + p {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.error p:nth-child(3) {
+    font-size: 12pt;
+    color: #666;
+}
+
+.error ul,
+.meta-data {
+    margin-top: 40px;
+}
+
+.error li,
+.meta-data li {
+    color: #979797;
+    margin-bottom: 10px;
 }
 
 
