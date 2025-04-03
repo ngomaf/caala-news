@@ -10,46 +10,46 @@ require_once '../resources/views/components/header.php';
                 <h2><span>Notícia </span>Recentes</h2>
                 <div>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
                     </article>
                 </div>
             </section>
@@ -57,38 +57,38 @@ require_once '../resources/views/components/header.php';
                 <h2><span>Notícias </span>Mais vistas</h2>
                 <div>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-
-                        <p><span>2.342</span> views</p>
-                    </article>
-                    <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
-
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
 
                         <p><span>2.342</span> views</p>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
 
                         <p><span>2.342</span> views</p>
                     </article>
                     <article>
-                        <figure><a href="#"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="#">Sociedade</a>, <a href="#">Cultura</a></p>
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="#">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+
+                        <p><span>2.342</span> views</p>
+                    </article>
+                    <article>
+                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+
+                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
+
+                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
 
                         <p><span>2.342</span> views</p>
                     </article>

@@ -2,13 +2,28 @@
 
 namespace app\controllers;
 
-class NotFoundController
+use resources\libraries\Controller;
+
+
+class NotFoundController extends Controller
 {
     public function index(string $ctrl):void {
-        echo "Crontroller {$ctrl} not found.";
+        $ctrl = ucfirst($ctrl);
+        $message = "Crontroller {$ctrl} not found.";
+
+        $this->view->render('site/error', [
+            'error' => 404,
+            'message' => $message,
+        ]);
     }
 
     public function show(string $ctrl, string $method):void {
-        echo "The method {$method} not exist, in crontroller {$ctrl}.";
+        $ctrl = ucfirst($ctrl);
+        $message = "The method {$method}() not exist, in crontroller {$ctrl}.";
+
+        $this->view->render('site/error', [
+            'error' => 404,
+            'message' => $message,
+        ]);
     }
 }

@@ -5,13 +5,14 @@
                 <h2>Menu</h2>
                 <li><a href="/">Home</a></li>
                 <li><a href="/notice">Notícia</a></li>
+                <li><a href="/notice/category">Categorias</a></li>
                 <li><a href="/about">Sobre</a></li>
                 <li><a href="/contact">Contactos</a></li>
             </ul>
             <ul class="categories">
                 <h2>Categorias</h2>
                 <li><a href="/notice/category/sociedade">Sociedade</a></li>
-                <li><a href="/notice/category/desposto">Desposto</a></li>
+                <li><a href="/notice/category/desporto">Desporto</a></li>
                 <li><a href="/notice/category/cultura">Cultura</a></li>
                 <li><a href="/notice/category/ciencia">Ciência</a></li>
             </ul>
