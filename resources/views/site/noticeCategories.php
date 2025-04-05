@@ -5,6 +5,7 @@ $titleH1 = 'Categorias';
 $descriptionPage = 'Categorias de notícias da Caála news.';
 require_once '../resources/views/components/header.php';
 ?>
+            <p>Test in categories</p>
             <section class="notice">
                 <div>
                     <?php foreach($categories as $value): ?>
