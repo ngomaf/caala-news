@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "symfony/var-dumper": "^7.2"
+        "symfony/var-dumper": "^7.2",
+        "matthiasmullie/minify": "^1.3"
     }
 }
