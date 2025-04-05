@@ -7,7 +7,7 @@ require_once '../resources/views/components/header.php';
 ?>
 
             <section>
-                <h2>Caála news</h2>
+                <h2>Caála news - test</h2>
                 <p>Olá somos a Caála news, uma organização voltada divulgação de notícias...</p>
 
                 <br>
