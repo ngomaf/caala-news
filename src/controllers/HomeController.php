@@ -2,14 +2,15 @@
 
 namespace app\controllers;
 
+use app\models\Notice;
 use resources\libraries\Controller;
 
 
 class HomeController extends Controller
 {
     public function index():void {
-        // echo "HomeController/index";
+        $notice = new Notice;
 
-        $this->view->render('site/home');
+        $this->view->render('site/home', ['notices' => $notice->get()]);
     }
 }

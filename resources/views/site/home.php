@@ -1,5 +1,10 @@
 <?php
 
+echo "<pre>";
+var_dump($notices);
+echo "</pre>";
+die;
+
 $title = 'Home';
 $titleH1 = 'Caála news';
 $descriptionPage = 'Tudo o que acontence na Caála e no mundo, você encontra aqui.';
@@ -9,48 +14,15 @@ require_once '../resources/views/components/header.php';
                 <!-- recent -->
                 <h2><span>Notícia </span>Recentes</h2>
                 <div>
+                    <?php foreach($notices as $value): ?>
                     <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/<?php echo $value['slug'] ?>"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
 
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
+                        <p><?php echo $value['date'] ?> | <a href="/notice/category/<?php echo $value['fk_category'] ?>">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
 
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/<?php echo $value['slug'] ?>"><?php echo $value['title'] ?></a></h1>
                     </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
+                    <?php endforeach ?>
                 </div>
             </section>
             <section class="notice">
