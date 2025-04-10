@@ -3,7 +3,7 @@
 $title = ucfirst($category[0]) . ' - Categoria - Notícias';
 $titleH1 = '<small>'. ucfirst($category[0]) .'</small>';
 $descriptionPage = $category[2] . ' noctícias da categoria ' . $category[0];
-$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/notice.css'>";
+$cssPage = "<link rel='stylesheet' href='/assets/css/notice.min.css'>";
 require_once '../resources/views/components/header.php';
 ?>
             <section class="notice">

@@ -8,3 +8,7 @@ A small PHP project train principles of developement.
 - URL friendly
 - end more
 - OOP
+
+## PHP components
+- symfony/var-dumper
+- matthiasmullie/minify

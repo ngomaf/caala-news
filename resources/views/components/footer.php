@@ -35,7 +35,7 @@
     </div>
 </main>
 <footer>
-    <p>&copy; caala news 2025</p>
+    <p>&copy; caala news 2025 - <a href="/conf"><small>conf</small></a></p>
     <p>powered by <a href="https://ngomaideia.blogspot.com/" target="_blank">Ngoma ideia</a></p>
 </footer>
 </body>

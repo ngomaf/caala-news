@@ -55,6 +55,26 @@ figcaption {
     margin-bottom: 10px;
 }
 
+.msgError,
+.msgSuccess,
+.msgAlert {
+    padding: 5px 0 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.msgError {
+    color: red;
+    background: #ffd3d3;;    
+}
+
+.msgSuccess {
+    color: green;
+    background: #e3ffd3;;
+}
+
 
 
 /* header */
@@ -199,8 +219,6 @@ nav ul {
     font-size: 18pt;
 }
 
-
-
 .small-part .messages li:nth-child(n+3) {
     display: none;
 }
@@ -208,8 +226,6 @@ nav ul {
 .small-part li {
     margin-bottom: 0px;
 }
-
-
 
 footer {
     padding: 30px 0;

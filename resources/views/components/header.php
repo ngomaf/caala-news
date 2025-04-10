@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/assets/appimg/caala-new-logo.png" rel="icon" type="image/png" />
-    <?php echo $cssPage ?>
-    <script src="/assets/js/default.js"></script>
     <title><?= $title ?> | Caála news</title>
+    <?php echo $cssPage ?? null ?>
+    <?php echo $jsPage ?? null ?>
 </head>
 <body>
 <header>
