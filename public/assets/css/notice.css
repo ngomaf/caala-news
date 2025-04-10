@@ -1,0 +1,49 @@
+.bigtitle {
+    margin-bottom: 20px;
+}
+
+.notice form {
+    margin-bottom: 25px;
+}
+
+.notice form input[type=text],
+.notice form button {
+    font: normal 1.2rem system-ui, -apple-system, Roboto, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    margin: 4px 0;
+}
+
+.notice form input[type=text] {
+    padding: 2px 6px 6px;
+}
+
+.notice form button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 10px 8px;
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.notice form button:hover {
+    background-color: #0c7ae9;
+}
+
+.cat {
+    margin-top: 30px;
+}
+
+.cat article {
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.single .date-cat {
+    color: #666;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+.single figure {
+    margin: 15px 0;
+}

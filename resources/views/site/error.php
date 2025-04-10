@@ -1,6 +1,7 @@
 <?php
 
 $title = 'Erro ' . $error;
+$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/error.css'>";
 require_once '../resources/views/components/header.php';
 ?>
 

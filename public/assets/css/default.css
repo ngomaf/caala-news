@@ -11,6 +11,10 @@ a {
     transition: .3s;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
 a:hover {
 	text-decoration: none;
     color: rgb(37, 137, 237);
@@ -23,6 +27,10 @@ h2, h3 {
 
 ul {
     list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 header, 
@@ -38,26 +46,10 @@ figcaption {
     color: #666;
 }
 
-.error h2 {
-    color: #900;
-}
-
-.error h2 + p {
-    color: red;
-    margin-bottom: 10px;
-}
-
-.error p:nth-child(3) {
-    font-size: 12pt;
-    color: #666;
-}
-
-.error ul,
 .meta-data {
     margin-top: 40px;
 }
 
-.error li,
 .meta-data li {
     color: #979797;
     margin-bottom: 10px;
@@ -211,6 +203,10 @@ nav ul {
 
 .small-part .messages li:nth-child(n+3) {
     display: none;
+}
+
+.small-part li {
+    margin-bottom: 0px;
 }
 
 

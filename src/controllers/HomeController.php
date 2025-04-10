@@ -11,6 +11,9 @@ class HomeController extends Controller
     public function index():void {
         $notice = new Notice;
 
-        $this->view->render('site/home', ['notices' => $notice->get()]);
+        $this->view->render('site/home', [
+            'datas' => $notice->get(),
+            'moreViews' => $notice->getMoreViews()
+        ]);
     }
 }
