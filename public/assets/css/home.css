@@ -1,0 +1,63 @@
+
+.contact-us {
+    padding: 50px 30px;
+    margin: 50px 0;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.contact-us input[type=email],
+.contact-us textarea,
+.contact-us button {
+    font: normal 1.2rem system-ui, -apple-system, Roboto, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+    margin: 4px 0;
+}
+
+.contact-us input[type=email],
+.contact-us textarea {
+    width: 100%;
+    padding: 2px 6px 6px;
+}
+
+.contact-us textarea {
+    height: 130px;
+}
+
+.contact-us button {
+    width: 49%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px 8px 8px;
+}
+
+.contact-us button:last-child {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+.contact-us button:last-child:hover {
+    background-color: #0c7ae9;
+}
+
+
+
+@media(min-width: 750px) {
+    .contact-us {
+        display: flex;
+        gap: 30px;
+    }
+
+    .contact-us form,
+    .contact-us ul {
+        flex: 0 0 49%;
+    }
+
+    .contact-us ul {
+        padding-top: 45px;
+    }
+
+    .contact-us h3 {
+        margin-bottom: 0;
+    }
+}

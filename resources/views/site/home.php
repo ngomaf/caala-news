@@ -3,97 +3,65 @@
 $title = 'Home';
 $titleH1 = 'Caála news';
 $descriptionPage = 'Tudo o que acontence na Caála e no mundo, você encontra aqui.';
+$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/home.css'>";
 require_once '../resources/views/components/header.php';
 ?>
             <section class="notice">
                 <!-- recent -->
                 <h2><span>Notícia </span>Recentes</h2>
                 <div>
+                    <?php foreach($datas as $value): ?>
                     <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/<?php echo $value['slug'] ?>"><img src="/assets/image/notice/<?php echo $value['fk_image']['image'] ?>" alt="<?php echo $value['fk_image']['alternative_text'] ?>"></a></figure>
 
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
+                        <p><?php echo $this->procDate($value['date']) ?> | <a href="/notice/category/<?php echo $value['fk_category']['slug'] ?>"><?php echo $value['fk_category']['name'] ?></a></p>
 
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/<?php echo $value['slug'] ?>"><?php echo $value['title'] ?></a></h1>
                     </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-                    </article>
+                    <?php endforeach ?>
                 </div>
             </section>
             <section class="notice">
                 <h2><span>Notícias </span>Mais vistas</h2>
                 <div>
+                    <?php foreach($moreViews as $value): ?>
                     <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
+                        <figure><a href="/notice/<?php echo $value['slug'] ?>"><img src="/assets/image/notice/<?php echo $value['fk_image']['image'] ?>" alt="<?php echo $value['fk_image']['alternative_text'] ?>"></a></figure>
 
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
+                        <p><?php echo $this->procDate($value['date']) ?> | <a href="/notice/category/<?php echo $value['fk_category']['slug'] ?>"><?php echo $value['fk_category']['name'] ?></a></p>
 
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
+                        <h1><a href="/notice/<?php echo $value['slug'] ?>"><?php echo $value['title'] ?></a></h1>
 
-                        <p><span>2.342</span> views</p>
+                        <p><span><?php echo $this->procNum($value['views']) ?></span> views</p>
                     </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-
-                        <p><span>2.342</span> views</p>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-
-                        <p><span>2.342</span> views</p>
-                    </article>
-                    <article>
-                        <figure><a href="/notice/seedback-sandwitch"><img src="/assets/image/notice/notice_escada_em_espiral.jpg" alt="Escada em espiral"></a></figure>
-
-                        <p>13/03/2024 | <a href="/notice/category/sociedade">Sociedade</a>, <a href="/notice/category/cultura">Cultura</a></p>
-
-                        <h1><a href="/notice/seedback-sandwitch">Feedback sandwitch: como fazer crítica de forma assertiva?</a></h1>
-
-                        <p><span>2.342</span> views</p>
-                    </article>
+                    <?php endforeach ?>
                 </div>
             </section>
+
+            <section class="contact-us">
+                <form action="" method="post">
+                    <h2>Contacte-nos</h2>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail"><br>
+                    <textarea name="message" id="message" placeholder="Deixe aqui a sua mensagem..."></textarea><br>
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </form>
+                <ul>
+                    <li>
+                        <h3>Telefone</h3>
+                        <p>+244 222 222</p>
+                    </li>
+                    <li>
+                        <h3>E-mail</h3>
+                        <p>info@caalanews.ao</p>
+                    </li>
+                    <li>
+                        <h3>Endereço</h3>
+                        <p>Av. da indempendência/Caála/Huambo/Angola</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- 
             <section class="angola-city">
                 <h2>Cidades de Angola</h2>
 
@@ -140,5 +108,6 @@ require_once '../resources/views/components/header.php';
                     </li>
                 </ul>
             </section>
+             -->
 
 <?php require_once '../resources/views/components/footer.php'; ?>

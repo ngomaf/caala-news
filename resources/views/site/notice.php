@@ -1,18 +1,36 @@
 <?php
 
+// echo "<pre>";
+// var_dump($notice);
+// echo "</pre>";
+// die;
+
 $title = $notice['title'];
+$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/notice.css'>";
 require_once '../resources/views/components/header.php';
 ?>
 
-            <section>
+            <section class="single">
                 <h2><?= $notice['title'] ?></h2>
 
-                <?= $notice['content'] ?>
+                <p class="date-cat">Publicado aos: <?= $this->procDate($notice['date']) ?> | categoria: <a href="/notice/category/<?php echo $notice['fk_category']['slug'] ?>"><?php echo $notice['fk_category']['name'] ?></a></p>
+
+                <figure>
+                    <img src="/assets/image/notice/<?php echo $notice['fk_image']['image'] ?>" alt="<?php echo $notice['fk_image']['alternative_text'] ?>">
+                    <figcaption><?php echo $notice['fk_image']['alternative_text'] ?></figcaption>
+                </figure>
+
+                <div class="content">
+                    
+                    <?= $notice['content'] ?>
+
+                </div>
+
 
                 <ul class="meta-data">
                     <li><small><pre>--</pre></small></li>
-                    <li><small><pre>created at: <?= $notice['date'] ?></pre></small></li>
-                    <li><small><pre>updated at: <?= $notice['date'] ?></pre></small></li>
+                    <li><small><pre>created at: <?= $this->procDate($notice['date']) ?></pre></small></li>
+                    <li><small><pre>updated at: <?= $this->procDate($notice['date']) ?></pre></small></li>
                 </ul>
             </section>
 

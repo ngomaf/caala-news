@@ -3,6 +3,7 @@
 $title = 'Sobre nós';
 $titleH1 = '';
 $descriptionPage = '';
+$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'>";
 require_once '../resources/views/components/header.php';
 ?>
 
