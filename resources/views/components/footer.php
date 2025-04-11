@@ -19,7 +19,7 @@
             <ul class="messages">
                 <h2>Mensagens</h2>
                 <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus, ratione facere odit dolor tempora voluptatem quibusdam error itaque nisi culpa quod, blanditiis accusamus earum neque nemo debitis maxime nostrum.
+                    A preguiça é a mãe do progresso, não fosse a preguiça o homem não criaria a roda.
                 </li>
                 <li>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea natus, ratione facere odit dolor tempora voluptatem quibusdam error itaque nisi culpa quod, blanditiis accusamus earum neque nemo debitis maxime nostrum.
@@ -35,7 +35,7 @@
     </div>
 </main>
 <footer>
-    <p>&copy; caala news 2025</p>
+    <p>&copy; caala news 2025 - <a href="/conf"><small>conf</small></a></p>
     <p>powered by <a href="https://ngomaideia.blogspot.com/" target="_blank">Ngoma ideia</a></p>
 </footer>
 </body>

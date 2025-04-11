@@ -1,12 +1,7 @@
 <?php
 
-// echo "<pre>";
-// var_dump($notice);
-// echo "</pre>";
-// die;
-
 $title = $notice['title'];
-$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/notice.css'>";
+$cssPage = "<link rel='stylesheet' href='/assets/css/notice.min.css'>";
 require_once '../resources/views/components/header.php';
 ?>
 

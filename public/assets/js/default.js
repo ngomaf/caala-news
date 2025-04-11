@@ -1,5 +1,2 @@
-window.onload = function() {
     
-    console.log('app caala news started...');
-
-}
+console.log('app caala news started...');

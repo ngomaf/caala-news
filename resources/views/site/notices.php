@@ -3,7 +3,7 @@
 $title = 'Notícias';
 $titleH1 = $title;
 $descriptionPage = 'Tudo o que acontence na Caála e no mundo, você encontra aqui.';
-$cssPage = "<link rel='stylesheet' href='/assets/css/default.css'><link rel='stylesheet' href='/assets/css/notice.css'>";
+$cssPage = "<link rel='stylesheet' href='/assets/css/notice.min.css'>";
 require_once '../resources/views/components/header.php';
 ?>
             <section class="notice">
